@@ -1,4 +1,4 @@
-# Data projects portfolio
+# Data Projects Portfolio
 
 # [Project 1: Prediction of the top scorer of the Brazilian football championship](https://igorcruz91.github.io/igor_portfolio/)
 

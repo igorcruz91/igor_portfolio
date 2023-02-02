@@ -1,6 +1,6 @@
 # Data projects portfolio
 
-# [Project 1: Prediction of the top scorer of the Brazilian football championship]
+# [Project 1: Prediction of the top scorer of the Brazilian football championship](https://igorcruz91.github.io/igor_portfolio/)
 
 This project aims to predict how many goals the top scorer has scored in each brazilian championship from 1959 to 2022. 
 

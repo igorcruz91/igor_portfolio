@@ -10,4 +10,6 @@ This project aims to predict how many goals the top scorer has scored in each br
 
 ## Overview of each top scorer and its corresponding year ![](images/goals.png)
 
-## Average goals per year from each top scorer ![] 
+## Average goals per year from each top scorer ![](images/avg_goals.png)
+
+## Games played per year from each top scorer ![](images/games_played.png)

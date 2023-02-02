@@ -14,4 +14,4 @@ This project aims to predict how many goals the top scorer has scored in each br
 
 ## Games played per year from each top scorer ![](images/games_played.png)
 
-## RMSE comparison ![]()
+## RMSE comparison ![](images/dataframe.png)

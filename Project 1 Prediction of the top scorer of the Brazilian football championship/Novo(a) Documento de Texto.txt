@@ -1,0 +1,3 @@
+Symbolic regression
+sparse regression
+PySR

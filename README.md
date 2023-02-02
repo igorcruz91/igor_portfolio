@@ -9,3 +9,5 @@ This project aims to predict how many goals the top scorer has scored in each br
 * **RMSE** was used as the main error metric of the models performances.
 
 ## Overview of each top scorer and its corresponding year ![](images/goals.png)
+
+## Average goals per year from each top scorer ![] 

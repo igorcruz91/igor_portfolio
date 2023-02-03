@@ -26,4 +26,7 @@ From the correlation table above we see that 'Jogos' and 'Edição' has a positi
 
 ### ML Models
 
-The machine learning models used were Linear Regression, K-Neighbors Regressor, Random Forest Regressor. The main error metric used to evaluate 
+The machine learning models used were Linear Regression, K-Neighbors Regressor, Random Forest Regressor. RMSE was the main error metric used to evaluate the models performances. The table below contains the RMSE value for each corresponding ML model. From that table, we see that the Random Forest model performed the best.
+
+![](images/rmse.png)
+

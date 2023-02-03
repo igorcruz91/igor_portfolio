@@ -1,6 +1,6 @@
 # Project 1: Prediction of the top scorer of the Brazilian football championship
 
-As a football fan I thought about building a machine learning model that predicts how many goals the top scorer has scored in each brazilian championship from 1959 to 2022.
+As a football fan I thought about building a machine learning model that predicts how many goals the top scorer has scored in each brazilian championship from 1959 to 2022. The code is available here.
 
 * Data was scrapped from the wikipedia page (https://pt.wikipedia.org/wiki/Lista_de_artilheiros_do_Campeonato_Brasileiro_de_Futebol#Por_edi%C3%A7%C3%A3o) using **requests** and **BeautifulSoup**.
 * Mahcine learning models such as **Linear Regression, Logistic Regression, K-Neighbors Regressor** and **Random Forest Regressor** were used to modelling the data.

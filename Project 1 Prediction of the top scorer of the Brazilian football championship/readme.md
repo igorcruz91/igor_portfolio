@@ -17,3 +17,13 @@ As we may see, there are some data cleaning to work on. First of all there are c
 Since our goal is to train a ML model, our target column is 'Gols'. The feature columns are 'Jogos', 'Edição' and 'Média'. Below is shown the correlation between the feature columns and the target column.
 
 ![](images/corr.png)
+
+From the correlation table above we see that 'Jogos' and 'Edição' has a positive correlation, whereas 'Média' has a negative correlation. Here are the plots that were made for this project
+
+![](images/goals.png)
+![](images/avg_goals.png)
+![](images/games_played.png)
+
+### ML Models
+
+The machine learning models used were Linear Regression, K-Neighbors Regressor, Random Forest Regressor. The main error metric used to evaluate 

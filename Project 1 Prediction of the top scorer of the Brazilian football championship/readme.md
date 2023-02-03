@@ -7,6 +7,21 @@ As a football fan I thought about building a machine learning model that predict
 * **RMSE** was used as the main error metric of the models performances.
 
 ### Data Overview
+
+`Edição` - year/edition of the championship
+
+`Jogador` - top scorer player
+
+`Nacionalidade` - nationality
+
+`Clube` - team
+
+`Gols` - goals scored
+
+`Jogos` - games played
+
+`Média` - average goals per games played
+
 Here is the first 15 rows of our scrapped dataframe
 ![](images/data.png)
 

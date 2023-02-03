@@ -9,3 +9,11 @@ As a football fan I thought about building a machine learning model that predict
 ### Data Overview
 Here is the first 15 rows of our scrapped dataframe
 ![](images/data.png)
+
+As we may see, there are some data cleaning to work on. First of all there are championship editions with two or more top scorers, and even editions with two top scorers with different number of goals as seen in years 1967 and 1968. This is due to the structure that the championships were organized back in the day. To work around this problem, the top scorer with the highest number of goals was selected for each edition.
+
+### Data Visualization
+
+Since our goal is to train a ML model, our target column is 'Gols'. The feature columns are 'Jogos', 'Edição' and 'Média'. Below is shown the correlation between the feature columns and the target column.
+
+![](images/corr.png)

@@ -26,7 +26,14 @@ From the correlation table above we see that 'Jogos' and 'Edição' has a positi
 
 ### ML Models
 
-The machine learning models used were Linear Regression, K-Neighbors Regressor, Random Forest Regressor. RMSE was the main error metric used to evaluate the models performances. The table below contains the RMSE value for each corresponding ML model. From that table, we see that the Random Forest model performed the best.
+The machine learning models used were Linear Regression, K-Neighbors Regressor, Random Forest Regressor. RMSE was the main error metric used to evaluate the models performances. The table below contains the RMSE value for each corresponding ML model. From that table, we see that the Random Forest model performed the best with a 2.17 RMSE, that is, the model misses on average the top scorer by 2.17 goals.
 
 ![](images/rmse.png)
 
+### Future Ideas & Analysis
+
+In order to improve the model, here are some ideas for future analysis:
+
+* Obtain new significant features
+* Hyperparametrization tuning
+* Use other country's championship and compare the models

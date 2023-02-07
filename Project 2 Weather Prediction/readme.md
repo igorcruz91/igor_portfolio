@@ -13,11 +13,11 @@ Below is a list of the main columns initially used from the data
 
 `precipitation` - precipitation (mm)
 
-`t_max` - maximum temperature (C)
+`t_max` - maximum temperature (°C)
 
-`t_min` - minimum temperature (C)
+`t_min` - minimum temperature (°C)
 
-`t_avg` - average temperature (C)
+`t_avg` - average temperature (°C)
 
 Here are the data preview
 
@@ -40,7 +40,7 @@ Since my main goal is to predict tomorrow's temperature from historical data, I 
 
 The data was splitted into train and test sets, using 75% of the data as training set and not shuffling the rows. 
 
-The first model used was **Linear Regression**. Using this model, I obtained a **RMSE** value of 2.62 C, that is, I am missing on average the actual temperature by 2.62 celcius.
+The first model used was **Linear Regression**. Using this model, I obtained a **RMSE** value of 2.62 °C, that is, I am missing on average the actual temperature by 2.62 °C.
 
 (plot do grafico y_true x y_pred)
 
@@ -52,9 +52,9 @@ I tried to decrease the RMSE value by adding new columns to my dataset. I added 
 
 (plot do novo dataset)
 
-With the new features dataset, the **RMSE** obtained was 2.55 C.
+With the new features dataset, the **RMSE** obtained was 2.55 °C.
 
-Since the data may have some non-linear relations, I used the **Random Forest** algorithm, with its default parameters, to make the predictions. With the **Random Forest**, I obtained a **RMSE** value of 2.68 C. That is, the Linear Regression algorithm performed better thant the Random Forest algorithm.
+Since the data may have some non-linear relations, I used the **Random Forest** algorithm, with its default parameters, to make the predictions. With the **Random Forest**, I obtained a **RMSE** value of 2.68 °C. That is, the Linear Regression algorithm performed better thant the Random Forest algorithm.
 
-*** Future Ideas & Analysis
+### Future Ideas & Analysis
 

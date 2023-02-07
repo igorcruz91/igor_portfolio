@@ -19,9 +19,9 @@ Below is a list of the main columns initially used from the data
 
 `t_avg` - average temperature (°C)
 
-Here are the data preview
+Here is the data preview
 
-(imagem do df)
+![](images/data.png)
 
 The initial dataframe contained a lot of columns that were not usefull, or that contained only one value, which does not help with the modelling. For those purposes, the only relevant columns used were listed above, and the other columns were removed.
 You may check the data cleaning process acessing the notebook.
@@ -30,27 +30,33 @@ You may check the data cleaning process acessing the notebook.
 
 One of the first thing we may do to help understand the data is visualize it.
 
-(imagens dos gráficos de t_max, t_min, precipitação, precipitação total)
+![](images/t_max.png)
 
-From the last graph, we see that there is some data missing from mid 80's to the beginning of the 00's. The file containig the data did not mention the reason why there's this gap.
+![](images/t_min.png)
 
-Since my main goal is to predict tomorrow's temperature from historical data, I created a column named `target` that contains the actual temperature of the next day.
+![](images/precipitation.png)
+
+![](images/total_precipitation.png)
+
+From the last graph, we see that there is some data missing from mid 80's to the beginning of the 00's. The file containig the data did not mention the reason why there's this gap. Since my main goal is to predict tomorrow's temperature from historical data, I created a column named `target` that contains the actual temperature of the next day.
+
+![](images/data_2.png)
 
 ### Machine Learning Models
 
-The data was splitted into train and test sets, using 75% of the data as training set and not shuffling the rows. 
+The data was splitted into train and test sets, using 75% of the data as training set and not shuffling the rows. The first model used was **Linear Regression**. Using this model, I obtained a **RMSE** value of 2.62 °C, that is, I am missing on average the actual temperature by 2.62 °C. Below we see the comparison between the true values and the predicted ones.
 
-The first model used was **Linear Regression**. Using this model, I obtained a **RMSE** value of 2.62 °C, that is, I am missing on average the actual temperature by 2.62 °C.
+![](images/pred.png)
 
-(plot do grafico y_true x y_pred)
+Here is the plot comparing the model's prediction and the actual temperatures for the entire test set and the comparison for the year 2022.
 
-Here are the plot comparing the model's prediction and the actual temperatures
+![](images/graph.png)
 
-(graficos comparando modelo LR)
+![](images/graph2.png)
 
 I tried to decrease the RMSE value by adding new columns to my dataset. I added the 30, 60 and 90 rolling mean temperatures.
 
-(plot do novo dataset)
+![](images/data_3.png)
 
 With the new features dataset, the **RMSE** obtained was 2.55 °C.
 

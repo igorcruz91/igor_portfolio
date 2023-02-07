@@ -64,3 +64,6 @@ Since the data may have some non-linear relations, I used the **Random Forest** 
 
 ### Future Ideas & Analysis
 
+* Use new data sources and do feature engeneering.
+* Use other algorithms to test if it fits better the data and reduce RMSE.
+* Predict the temperature for next days, months, year.

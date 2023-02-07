@@ -1,7 +1,7 @@
 ## Project 2: Predicting the Weather using Machine Learning
 
 The main goal of this project is to use real world data and machine learning techniques to predict the weather. First of all I tried to predict the weather from São Paulo, my home town, but unfortunately there were almos 90% of missing data.
-Utilizing NOAA's data as our main data source, I choosed the city of Oakland - CA, to make the predictions, since there were just few missing data. The data goes from 1960-2022. 
+Utilizing NOAA's data as our main data source, I choosed the city of Oakland - CA, to make the predictions, since there were just few missing data. The data goes from 1960-2022. You can acess the notebook of this project ![here](https://github.com/igorcruz91/igor_portfolio/blob/main/Project%202%20Weather%20Prediction/Weather%20Prediction%20with%20Machine%20Learning.ipynb).
 
 * Data was downloaded from NOAA's ![official website](https://www.ncdc.noaa.gov/cdo-web/search).
 * Machine Learning models such as **Linear Regression** and **Random Forests** were used.

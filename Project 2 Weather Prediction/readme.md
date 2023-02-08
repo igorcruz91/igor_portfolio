@@ -54,7 +54,7 @@ Here is the plot comparing the model's prediction and the actual temperatures fo
 
 ![](images/graph2.png)
 
-I tried to decrease the RMSE value by adding new columns to my dataset. I added the 30, 60 and 90 rolling mean temperatures.
+I tried to decrease the RMSE value by adding new columns to my dataset. I added the 30, 60 and 90 days rolling mean temperatures.
 
 ![](images/data_3.png)
 

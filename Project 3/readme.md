@@ -50,6 +50,6 @@ Now, with respect to each centroid the euclidean distance between every data poi
 
 In order to plot the clusters, I used the PCA (Principal Component Analysis) to help visualize them, since our features dimension is 5. I used 100 iterations for the centroid update. The algorithm stops if the number of iterations reach the choosed value (100) or if the centroids converge and stop updating. Here is the clustering plot of the data.
 
-![](images/clustering.png)
+![](images/cluster.png)
 
 From the plot above, we see that it took 33 iterations to converge.

@@ -10,3 +10,7 @@ This project aims to predict how many goals the top scorer has scored in each br
 ### [Project 2: Weather Prediction using Machine Learning](https://github.com/igorcruz91/igor_portfolio/tree/main/Project%202%20Weather%20Prediction)
 
 This project goal is to predict the weather temperature using historical data from 1960-2022.
+
+### [Project 3: Clustering FIFA 22 players](https://github.com/igorcruz91/igor_portfolio/tree/main/Project%203)
+
+This project was designed to implement k-means clustering to all FIFA 22 players in order to find patterns in our data and analyze some results.

@@ -53,3 +53,15 @@ In order to plot the clusters, I used the PCA (Principal Component Analysis) to 
 ![](images/cluster.png)
 
 From the plot above, we see that it took 33 iterations to converge.
+
+### Analyzing Clusters
+
+Now that every player is assigned to a cluster, we may analyze what type of players each cluster have. For example, taking the cluster label 2 we have this dataset
+
+![](images/cluster_2.png)
+
+Looking at the players contained in this dataset, we see that this cluster have high overall players, players with high potential, and relatively young players. One important thing for clubs is to sign young and promissing players. For this purpose, it is easy to list those type of players having the clusters. Here is a dataset containing the top 10 players with 18 years old.
+
+![](images/top.png)
+
+Checking the players from the other two clusters, we conclude that the first cluster have players with high age that reached its potential, and the second cluster have players younger than the first cluster, not highly rated that reached its overall rating.

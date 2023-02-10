@@ -53,6 +53,3 @@ In order to plot the clusters, I used the PCA (Principal Component Analysis) to 
 ![](images/clustering.png)
 
 From the plot above, we see that it took 33 iterations to converge.
-
-
-

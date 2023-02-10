@@ -66,6 +66,14 @@ Looking at the players contained in this dataset, we see that this cluster have 
 
 Checking the players from the other two clusters, we conclude that the first cluster have players with high age that reached its potential, and the second cluster have players younger than the first cluster, not highly rated that reached its overall rating.
 
+### Comparing with sci-kitlearn
+
+Implementing the K-Means algorithm using sci-kitlearn, I obtained the centroids shown below.
+
+![](images/centroids_scikit.png)
+
+With this implementation is possible to see that the the clusters are similar with the ones obtained by my K-Means algorithm. The advantage of using sci-kitlearn's implementation is that uses fewer code to perform the clustering.
+
 ### Future Ideas & Analysis
 
 * Implement other clustering techniques besides K-Means

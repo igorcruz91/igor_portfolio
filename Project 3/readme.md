@@ -65,3 +65,9 @@ Looking at the players contained in this dataset, we see that this cluster have 
 ![](images/top.png)
 
 Checking the players from the other two clusters, we conclude that the first cluster have players with high age that reached its potential, and the second cluster have players younger than the first cluster, not highly rated that reached its overall rating.
+
+### Future Ideas & Analysis
+
+* Implement other clustering techniques besides K-Means
+* Use other distances other than euclidean for the clustering algorithm
+* Group players by position and perform clustering for each position

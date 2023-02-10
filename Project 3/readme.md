@@ -1,8 +1,8 @@
 ## Project 3: Clustering FIFA 22 players
 
-This project was designed to implement **k-means** clustering algorithm, an unsupervised machine learning technique, with all FIFA 22 players in order to find patterns in our data and analyze some results. The notebook for this project is available here.
+This project was designed to implement **k-means** clustering algorithm, an unsupervised machine learning technique, with all FIFA 22 players in order to find patterns in our data and analyze some results. The notebook for this project is available ![here](https://github.com/igorcruz91/igor_portfolio/blob/main/Project%203/Clustering%20FIFA%20players.ipynb).
 
-* Dataset used can be downloaded here.
+* Dataset used can be downloaded ![here](https://www.kaggle.com/datasets/stefanoleone992/fifa-22-complete-player-dataset).
 * K-Means clustering algorithm was built from scratch, and later compared with sci-kitlearn.
 
 ### Data Overview

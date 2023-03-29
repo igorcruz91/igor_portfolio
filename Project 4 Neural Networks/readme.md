@@ -61,6 +61,6 @@ With 3 hidden layers, our model performed better in comparison with the 1 and 2 
 
 In order to do more research on this topic, I listed some task that may be worth looking:
 
-* Use different activation functions to the NN model to see if the accuracies improve. The activation function used was the default 'relu' function.
+* Use different activation functions to the NN model to see if the accuracies improve. The activation function used was the default `relu` function.
 
 * Utilize different classification models, such as Decision Trees, Random Forest, in order to compare its performance with the models used in this project. 

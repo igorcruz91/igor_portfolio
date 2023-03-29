@@ -18,7 +18,7 @@ The dataset was splitted into train and test sets, using 50% of the data for the
 
 ### K-Nearst Neighbors Classifier
 
-In order to classify the images, I first used the **K-Nearst Neighbors** algorithm. Using the parameter `n_neighbors = 5` I built a function that uses KNeighborsClassifer for training k-nearest neighbors models. The accuracy obtained from that model was 97.66%.
+In order to classify the images, I first used the **K-Nearst Neighbors** algorithm. Using the parameter `n_neighbors = 5`, I built a function that uses KNeighborsClassifer for training k-nearest neighbors models. The accuracy obtained from that model was 97.66%.
 
 The choice of the parameter `n_neighbors = 5` is a bit random, and because of that I tested the model's accuracy with different values. Below is a graph of the model's performance with different values of `n`.
 
@@ -56,3 +56,11 @@ With three hidden layers, I set the number of neurons in each layer to be equal.
 ![](images/nn_three.png)
 
 With 3 hidden layers, our model performed better in comparison with the 1 and 2 hidden layers NN models, surpassing 98% of accuracy with aproximately 200 neurons in each layer.
+
+### Next Steps
+
+In order to do more research on this topic, I listed some task that may be worth looking:
+
+* Use different activation functions to the NN model to see if the accuracies improve. The activation function used was the default 'relu' function.
+
+* Utilize different classification models, such as Decision Trees, Random Forest, in order to compare its performance. 

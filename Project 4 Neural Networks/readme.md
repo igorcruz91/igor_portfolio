@@ -63,4 +63,4 @@ In order to do more research on this topic, I listed some task that may be worth
 
 * Use different activation functions to the NN model to see if the accuracies improve. The activation function used was the default 'relu' function.
 
-* Utilize different classification models, such as Decision Trees, Random Forest, in order to compare its performance. 
+* Utilize different classification models, such as Decision Trees, Random Forest, in order to compare its performance with the models used in this project. 

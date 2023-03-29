@@ -2,7 +2,7 @@
 
 This projects goal is to implement **Neural Networks** and the **K-Nearest Neighbors** algorithm to classify handwritten digits and evaluate the models accuracy. For this project, I used the hand-written digits dataset from UCI that can be obtained ![here](http://archive.ics.uci.edu/ml/datasets/Optical+Recognition+of+Handwritten+Digits).
 
-* You may acess the notebook in this link.
+* You may acess the notebook in this [link](https://github.com/igorcruz91/igor_portfolio/blob/main/Project%204%20Neural%20Networks/Neural%20Networks%20Classifier.ipynb).
 
 ### Data Overview
 

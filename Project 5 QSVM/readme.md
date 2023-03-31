@@ -14,5 +14,5 @@ The main advantages of using QSVMs over classical SVMs are:
 
 For this project I used the MNIST digits dataset in order to differentiate between the numbers `4` and `9`. You may acess the dataset here. In this dataset there are a total of 100 data which 80 are labeled training data, and the remaining twenty are unlabeled test data.
 
-![](digits.png){:height="200" width="200"}
+![](digits.png)
 

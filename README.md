@@ -21,5 +21,5 @@ This project was designed to implement k-means clustering to all FIFA 22 players
 
 This project goal is to implement different classification algorithms such as K-Nearst Neighbors and Neural Networks and compare their performances.
 
-###[Project 5: Quantum SVM for binary classification](https://github.com/igorcruz91/igor_portfolio/tree/main/Project%205%20QSVM)
+### [Project 5: Quantum SVM for binary classification](https://github.com/igorcruz91/igor_portfolio/tree/main/Project%205%20QSVM)
 This project aims to use quantum support vector machine in order to classify digits, and later compare its performance with a classical KNN algorithm.

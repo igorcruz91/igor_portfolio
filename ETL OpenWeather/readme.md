@@ -34,7 +34,8 @@ The code defines three tasks that constitute the data engineering workflow:
 - Checks if the OpenWeatherMap API is ready and accessible.
 - Extracts weather data from the OpenWeatherMap API.
 - Executes the transform_load_data function defined earlier.
-- The code defines the dependencies between the tasks using the `>>` notation.
+
+The code defines the dependencies between the tasks using the `>>` notation.
 It indicates that the tasks should be executed sequentially in the order: is_weather_api_ready >> extract_weather_data >> transform_load_weather_data.
 
 ## Next Steps:

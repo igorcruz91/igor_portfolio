@@ -1,5 +1,6 @@
 # ETL OpenWeather
 
+![](fig.png)
 In this project, I aimed at constructing and automating an ETL (Extract, Transform, Load) pipeline using Airflow, and some AWS services such as EC2, S3, in order to obtain,
 process and store weather data from São Paulo into a datalake.
 

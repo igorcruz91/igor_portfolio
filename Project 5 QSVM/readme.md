@@ -1,4 +1,4 @@
-# Project 5: Quantum Support Vector Machine (QSVM) for Classification Problem
+# Project: Quantum Support Vector Machine (QSVM) for Classification Problem
 
 This projects goal is to implement a QSVM model for binary classification and predict labels accurately, and later compare its performance with the KNN algorithm. QSVM is a quantum version of the Support Vector Machine (SVM), a classical machine learning algorithm.
 

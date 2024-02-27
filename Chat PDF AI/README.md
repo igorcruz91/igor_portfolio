@@ -1,6 +1,6 @@
 # Chat PDF AI
 
-![]()
+![](1691506912714.jpg)
 
 I developed an application that allows users to upload PDFs and query their content using Langchain and Streamlit. As an example, I used my own master's thesis and asked the bot some questions about the text. This application supports multiple PDF files.
 
